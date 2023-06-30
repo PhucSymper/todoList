@@ -11,6 +11,7 @@ WORKDIR /echo_app/
 # to build artifacts, and not as dev env).  
 COPY go.mod  /echo_app/go.mod
 RUN go mod download
+RUN cd server
 
 
 EXPOSE 1234
