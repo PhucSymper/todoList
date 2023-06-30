@@ -32,5 +32,5 @@ func main() {
 	e.DELETE("/:id", controler.DeleteItem)
 	fmt.Println("something")
 	// Start server at localhost:1323
-	e.Logger.Fatal(e.Start(":3000"))
+	e.Logger.Fatal(e.Start(":1232"))
 }

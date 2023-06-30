@@ -14,4 +14,4 @@ RUN go mod download
 RUN cd server
 
 
-EXPOSE 1234
+EXPOSE 1232

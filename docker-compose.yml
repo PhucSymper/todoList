@@ -7,7 +7,7 @@ services:
     volumes:
       - .:/echo_app
     ports:
-      - "1234:1234"
+      - "1232:1232"
     networks:
       - customnetwork
 networks:
